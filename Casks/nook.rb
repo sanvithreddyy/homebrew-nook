@@ -1,12 +1,14 @@
 cask "nook" do
-  version "0.1.1"
-  sha256 "a39620bfc4ad206ff1ad0761d64b4c1025f6b46d06d494986b27471d52732630"
+  version "0.1.2"
+  sha256 "f744730e9661941c2b14abd13ec54b5e0d88399602b33eb0ca7e44a81fd01adb"
 
   url "https://github.com/sanvithreddyy/nook/releases/download/v#{version}/Nook-#{version}.dmg"
   name "Nook"
   desc "Live island in the notch for music, meetings, timers and files"
   homepage "https://github.com/sanvithreddyy/nook"
 
+  # From 0.1.2 Nook updates itself, through Settings.
+  auto_updates true
   depends_on macos: :sequoia
 
   app "Nook.app"
