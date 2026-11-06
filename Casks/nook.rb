@@ -1,6 +1,6 @@
 cask "nook" do
-  version "0.2.1"
-  sha256 "2bfe64514cba62aa690d44666c3628af342e45203eedb29df6de9e1d538f9cfe"
+  version "0.2.2"
+  sha256 "93847733592a458b1b8afbeb47f823bfa7098de1965b4aac92ffe6105f59eebc"
 
   url "https://github.com/sanvithreddyy/nook/releases/download/v#{version}/Nook-#{version}.dmg"
   name "Nook"
